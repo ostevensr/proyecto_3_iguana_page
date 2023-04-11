@@ -1,0 +1,126 @@
+body {
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+header {
+    background: #000000 0% 0% no-repeat padding-box;
+    color: white;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 73px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.portada {
+    background: url("../img/bg-header.jpg");
+    top: 73px;
+    left: 0px;
+    width: 100%;
+    height: 727px;
+}
+
+article {
+    font-size: 18px;
+    color: white;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    top: 800px;
+    left: 0px;
+    width: 100%;
+    height: 348px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.foto-articulo {
+    width: 30rem;
+    height: 20rem;
+    padding-right: 5%;
+}
+
+.caracteristicas {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 2rem;
+    margin-top: 50px;
+    top: 1141px;
+    left: 0px;
+    width: 100%;
+    height: 348px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    color: white;
+    margin: 0px;
+}
+
+.caract-container {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+    margin-top: 2rem;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.car img {
+    width: 200px;
+    height: 200px;
+}
+
+.seccion-fotos {
+    top: 1488px;
+    left: 0px;
+    width: 100%;
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.seccion-fotos img {
+    width: 25rem;
+    height: 15rem;
+}
+
+footer {
+    color: white;
+    top: 1835px;
+    left: 0px;
+    width: 100%;
+    height: 102px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
